@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* span{
+    color: #837E9F;
+}
+
+* p{
+    color: #837E9F;
+    font-weight: 400;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    font-size: 62.5%;
+  }
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #22212C;
+    padding: 4rem;
+
+    font-family: "Merriweather Sans", sans-serif;
+
+    display: grid;
+    box-sizing: border-box;
+}
+
+.profile-info{
+    background-color: #302F3D;
+    
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 1.5rem;
+    box-shadow: 0.3rem 0.3rem rgb(29, 28, 28);
+    width: 35.5rem;
+}
+
+#profile-photo{
+    height: 30rem;
+    padding: 3.2rem 0rem;
+    margin: 0rem 5rem 3.2rem 0rem;
+
+    align-items: center;
+}
+
+#profile-photo #user-name{
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+#profile-photo #user-job{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0.8rem;
+}
+
+#profile-photo img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+
+  
+    border: 0.3rem solid transparent;
+    background: #00FF00;
+}
+
+#social-media {
+    padding: 2.5rem 3.5rem;
+}
+
+#social-media ul li{
+    color: #837E9F;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    list-style-type: none;
+}
+
+#social-media img{
+    margin: 1.2rem 1.8rem 0rem 0rem;
+    
+    filter: url(svg#grayscale)
+}
+
+#technologies span{
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 2.1rem;
+
+    margin: 1.2rem 0rem 0rem 3rem;
+}
+
+#experiences span{
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 2.1rem;
+
+    margin: 1.2rem 0rem 0rem 3rem;
+}
+
+#education span{
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 2.1rem;
+
+    margin: 1.2rem 0rem 0rem 3rem;
+}
