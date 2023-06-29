@@ -14,5 +14,4 @@ Esse projeto foi desenvolvido com base nas aulas dispostas na seção "Discover"
 
 ## 📊 Layout
 Você pode visualizar o layout do projeto através
-[desse link](https://www.figma.com/file/eLuyrNVjjigl7qXRociI4l/Portfolio-%E2%80%A2-Desafio-Discover-(Copy)?type=design&node-id=10662%3A411&mode=design&t=2HShqR8ypmTS6RG0-1).
-É necessário ter uma conta no [Figma](https://www.figma.com).
+[desse link](https://www.figma.com/file/eLuyrNVjjigl7qXRociI4l/Portfolio-%E2%80%A2-Desafio-Discover-(Copy)?type=design&node-id=10662%3A411&mode=design&t=2HShqR8ypmTS6RG0-1). É necessário ter uma conta no [Figma](https://www.figma.com).
