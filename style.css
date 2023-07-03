@@ -34,8 +34,7 @@ body {
     display: grid;
     grid-template-areas: "aside main";
     grid-template-rows: 1fr;
-    grid-template-columns: 34.8rem;
-
+    grid-template-columns: 45rem 1fr;
 }
 
 aside {
@@ -110,36 +109,51 @@ main {
 
 #technologies {
     height: 20.8rem;
+    padding: 2.5rem 2rem;
 }
 
 #technologies span{
     color: #837E9F;
     font-weight: 700;
     font-size: 2.1rem;
-
-    margin: 1.2rem 0rem 0rem 3rem;
 }
 
 #experiences {
-    height: 34.9rem;
+    height: 29.5rem;
+    padding: 2.5rem 2rem;
 }
 
-#experiences span{
+#experiences span {
     color: #837E9F;
     font-weight: 700;
     font-size: 2.1rem;
 
-    margin: 1.2rem 0rem 0rem 3rem;
+    margin-bottom: 0.3rem;
+}
+
+#experiences ul li {
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+    margin: 1.7rem 0 0 4.5rem;
 }
 
 #education {
-    height: 35.2rem;
+    height: 28.5rem;
+    padding: 2.5rem 2rem;
 }
 
 #education span{
     color: #837E9F;
     font-weight: 700;
     font-size: 2.1rem;
+}
 
-    margin: 1.2rem 0rem 0rem 3rem;
+#education ul li {
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+    margin: 1.7rem 0 0 4.5rem;
 }
