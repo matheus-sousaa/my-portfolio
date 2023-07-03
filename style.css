@@ -116,6 +116,34 @@ main {
     color: #837E9F;
     font-weight: 700;
     font-size: 2.1rem;
+
+    margin-bottom: 2rem;
+}
+
+#technologies p {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    width: 8.6rem;
+    height: 2.4rem;
+    border-radius: 1.9rem;
+    background-color: #CB92B1;
+
+    display: flex;    
+    justify-content:center;
+    align-items: center;
+}
+
+#technologies div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-items: center;
+    justify-content: center;
+
+    gap: 1.5em;
 }
 
 #experiences {
