@@ -185,3 +185,42 @@ main {
 
     margin: 1.7rem 0 0 4.5rem;
 }
+
+.profile-activities {
+    width: 95.2rem;
+    height: 8.6rem;
+    background-color: #302F3D;
+
+    border-radius: 2rem;
+    box-shadow: 0.4rem 0.35rem rgb(29, 28, 28);
+
+    display: flex;
+    align-items: center;
+}
+
+#profile-projects {
+    margin-top: 5.2rem;
+    font-size: 2.08rem;
+    font-weight: 700;
+
+    justify-content: space-between;
+}
+
+#profile-projects a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #837E9F;
+    text-decoration: none;
+}
+
+#profile-projects a:hover {
+    color: #8576db;
+}
+
+#profile-posts {
+    font-size: 2.08rem;
+    font-weight: 700;
+
+    display: flex;
+    align-content: center;
+}
