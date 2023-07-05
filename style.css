@@ -35,6 +35,8 @@ body {
     grid-template-areas: "aside main";
     grid-template-rows: 1fr;
     grid-template-columns: 45rem 1fr;
+
+    height: 100vh;
 }
 
 aside {
@@ -45,6 +47,9 @@ aside {
 
 main {
     grid-area: main;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-info{
@@ -186,9 +191,18 @@ main {
     margin: 1.7rem 0 0 4.5rem;
 }
 
+#projects-section {
+    grid-area: projects-section;
+}
+
+#posts-section {
+    grid-area: posts-section;
+}
+
 .profile-activities {
     width: 95.2rem;
     height: 8.6rem;
+    padding: 0 2.5rem;
     background-color: #302F3D;
 
     border-radius: 2rem;
@@ -217,7 +231,14 @@ main {
     color: #8576db;
 }
 
+#main-projects {
+    height: 18.6rem;
+    width: 46.1rem;
+    background-color: #302F3D;
+}
+
 #profile-posts {
+    margin-top: 2.5rem;
     font-size: 2.08rem;
     font-weight: 700;
 
